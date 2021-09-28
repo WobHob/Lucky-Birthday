@@ -1,0 +1,53 @@
+:root{
+    --primary-color:#FBBF24;
+}
+
+html{
+    background:var(--primary-color);
+}
+
+.header{
+    text-align: center; 
+    padding: 2rem 2rem;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size:4rem;
+}
+
+.container{
+    padding:5rem 5rem;
+    margin: 2rem 2rem;
+    text-align:center;
+}
+
+.container .dob{
+    text-align:center;
+}
+
+#date-of-birth{
+    margin: 2rem 2rem;
+    height:2rem;
+}
+
+.lucky-num{
+    margin:2rem 2rem;
+}
+
+#range-output{
+    margin:1rem 1rem;
+    padding:1rem;
+}
+
+#calculate-number{
+    margin:2rem;
+}
+
+#plus{
+    font-size:2rem;
+    border-radius:1rem;
+}
+
+#minus{
+
+    font-size:2rem;
+    border-radius:1rem;
+}
