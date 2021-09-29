@@ -28,6 +28,10 @@ html{
     height:2rem;
 }
 
+#lucky-number-slider{
+    width:20rem;
+}
+
 .lucky-num{
     margin:2rem 2rem;
 }

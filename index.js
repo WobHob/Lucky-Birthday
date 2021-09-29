@@ -32,31 +32,18 @@ luckyNum.addEventListener("input",function(){
     luckyNumDisp.innerHTML = luckyNum.value;
 })
 
-// plusBtn.addEventListener("click",function(){
-//     luckyNum.value+=1;
+// function incrementValue(){
+//     val = isNan(luckyNum.value)?0:val;
+//     val++;
 //     luckyNumDisp.innerHTML = luckyNum.value;
-// })
+// }
 
 
-// minusBtn.addEventListener("click",function(){
-//     luckyNum.value-=1;
+// function decrementValue(){
+//     val = (isNan(luckyNum.value) || luckyNum.value<=0)?1:val;
+//     val--;
 //     luckyNumDisp.innerHTML = luckyNum.value;
-
-// })
-
-
-function incrementValue(){
-    val = isNan(luckyNum.value)?0:val;
-    val++;
-    luckyNumDisp.innerHTML = luckyNum.value;
-}
-
-
-function decrementValue(){
-    val = (isNan(luckyNum.value) || luckyNum.value<=0)?1:val;
-    val--;
-    luckyNumDisp.innerHTML = luckyNum.value;
-}
+// }
 
 checkBtn.addEventListener("click",() => {
     const date = fullDate.value;
